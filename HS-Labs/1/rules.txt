@@ -1,0 +1,33 @@
+(label[X] == 'F')
+(label[X] == 'F') <= (Mg[X] <= 3.42)
+(label[X] == 'D')
+(label[X] == 'D') <= (Si[X] <= 70.16) & (Fe[X] <= 0.14)
+(label[X] == 'D') <= (Si[X] <= 70.16)
+(label[X] == 'D')
+(label[X] == 'D') <= (Mg[X] <= 2.26)
+(label[X] == 'A')
+(label[X] == 'A') <= (Ba[X] <= 0.34) & (Al[X] <= 1.42) & (Ca[X] <= 10.48)
+(label[X] == 'A') <= (Ba[X] <= 0.34) & (Al[X] <= 1.42)
+(label[X] == 'A') <= (Ba[X] <= 0.34)
+(label[X] == 'F')
+(label[X] == 'F') <= (Mg[X] <= 3.42)
+(label[X] == 'D')
+(label[X] == 'D') <= (Si[X] <= 70.16) & (Fe[X] <= 0.14)
+(label[X] == 'D') <= (Si[X] <= 70.16)
+(label[X] == 'D')
+(label[X] == 'D') <= (Mg[X] <= 2.26)
+(label[X] == 'A')
+(label[X] == 'A') <= (Ba[X] <= 0.34) & (Al[X] <= 1.42) & (Ca[X] <= 10.48)
+(label[X] == 'A') <= (Ba[X] <= 0.34) & (Al[X] <= 1.42)
+(label[X] == 'A') <= (Ba[X] <= 0.34)
+
+Mg[0] = 4.49
+Al[0] = 1.1
+Si[0] = 71.78
+Ca[0] = 8.75
+Ba[0] = 0.0
+Fe[0] = 0.0
+
+print(pyDatalog.ask('label[X] == Y'))
+
+#{(0, 'A')}
