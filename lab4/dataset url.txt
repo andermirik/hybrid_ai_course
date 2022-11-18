@@ -1,1 +1,1 @@
-https://app.roboflow.com/test-utexh/website-screenshots-bgwht/overview
+https://public.roboflow.com/object-detection/website-screenshots
