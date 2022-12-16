@@ -1,0 +1,11 @@
+Accuracy: 0.238
+Precision: 0.953
+Score: 0.635
+
+Accuracy for Random Forest Classifier: 0.988
+Precision for Random Forest Classifier: 0.995
+F1 Score for Random Forest Classifier: 0.988
+
+Iter. #1 Accuracy: 0.359
+Iter. #1 Precision: 0.958
+Iter. #1 F1 Score: 0.821
